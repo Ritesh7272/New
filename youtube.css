@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    /* background-color: blue; */
+    justify-content: space-around;
+    margin-top: 20px;
+    /* align-items: center; */
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.group1 {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    
+}
+
+.group2 {
+    display: flex;
+    gap: 45px;
+}
+
+.searchbar {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.searchbar input {
+    width: 600px;
+    height: 45px;
+    outline: none;
+    border: none;
+    display: flex;  
+    font-size: 25px;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.ri-mic-fill {
+    height: 30px;
+    width: 10px;
+    font-size: 25px;
+}
+
+.ri-notification-3-line {
+    height: 30px;
+    width: 10px;
+    font-size: 25px;
+}
+
+.ri-map-pin-user-fill {
+    height: 30px;
+    width: 10px;
+    font-size: 25px;
+}
+
+#three .ri-notification-3-line{
+    height: 100px;
+    width: 50px;
+}
+
+.main{
+    display: flex;
+}
+
+#glass{
+    height: 30px;
+    padding-top: 5px 5px;
+    margin-top: 5px ;
+    margin-right: 5px;
+}
